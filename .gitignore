@@ -1,3 +1,17 @@
+# Exclude data and output files from the project assignment for checkin
+
+aes-output.bin
+aes-try.key
+encrypted.bin
+myfile.sig
+rsa-key.priv
+rsa-key.pub
+
+# Other exclusions
+.bak
+
+# Below here are github default exclusions for Python projects
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
